@@ -113,7 +113,7 @@
       .col-lg-8.col-md-7.col-sm-6.col-xs-auto(data-aos="slide-left")
         h4 Tamaño de tipografía en cada S.O
         p El tamaño de la tipografía se mide en scaled Pixels o píxeles escalados; el tamaño utilizado en aplicaciones móviles va desde 12sp hasta 22sp. Es así como los títulos principales podrían medir hasta 34px. De esta manera, el tamaño en las etiquetas, dentro de botones importantes, es de 28px, aproximadamente. Partiendo de allí, va en disminución jerárquicamente hasta alcanzar el tamaño más pequeño que es muy cercano a los 14px. No obstante, la recomendación es no usar dimensiones que sean inferiores a los 20px en los textos que sean de lectura. 
-    #_2_2.titulo-segundo
+    #t_2_2.titulo-segundo
       h2 2.2 Retícula
     .row.mb-5.justify-content-between
       .col-lg-5
@@ -254,7 +254,7 @@ export default {
 
 <style lang="sass" scoped>
 .tarjeta1
-  border-radius: 10px
+  border-radius: 20px
   position: relative
   &:before
     content: ""
@@ -263,7 +263,7 @@ export default {
     width: 85px
     top: 0
     left: 0
-    border-radius: 10px 0px 0px 10px
+    border-radius: 20px 0px 0px 20px
     background-color: $color-acento-contenido
   &:after
     content: ""
@@ -272,7 +272,7 @@ export default {
     width: 85px
     top: 0
     right: 0
-    border-radius: 0px 10px 10px 0px
+    border-radius: 0px 20px 20px 0px
     background-color: $color-acento-contenido
 .bloque-texto-b
   &:before
