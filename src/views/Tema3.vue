@@ -10,13 +10,13 @@
     .titulo-sexto.color-acento-contenido
       h5.fw-normal 
         b Tabla 4 
-        | La usabilidad 
+        | <i>La usabilidad</i> 
     .row.mb-5(data-aos="zoom-out-up")
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta.color-primario--borde.w-100.p-4.h-100.hover-transform
           img(src='@/assets/curso/img35.svg' alt='AvatarTop' style='width: 124px').mb-4
           h3 Eficacia o efectividad
-          p La aplicación se considera efectiva cuando los usuarios logran concretar y realizar los objetivos específicos para los cuales fue desarrollada la aplicación. se puede medir con la tasa de errores detectados y la cantidad de soluciones ofrecidas. 
+          p La aplicación se considera efectiva cuando los usuarios logran concretar y realizar los objetivos específicos para los cuales fue desarrollada la aplicación. Se puede medir con la tasa de errores detectados y la cantidad de soluciones ofrecidas. 
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta.color-acento-contenido--borde.w-100.p-4.h-100.hover-transform
           img(src='@/assets/curso/img36.svg' alt='AvatarTop' style='width: 124px').mb-4

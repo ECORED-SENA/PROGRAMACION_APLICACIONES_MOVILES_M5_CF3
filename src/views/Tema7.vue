@@ -10,7 +10,7 @@
     .titulo-sexto.color-acento-contenido
       h5.fw-normal 
         b Figura 11  
-        | Tamaño de dispositivos y visualización
+        | <i>Tamaño de dispositivos y visualización</i>
     figure.mb-5 
       img(src='@/assets/curso/img65.jpg')
       figcaption Nota. Presentación Introducción Al Desarrollo De Aplicaciones Móviles. (2020)

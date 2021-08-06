@@ -12,12 +12,15 @@
           br
           br
           |Esta información es relevante para la fase de producción y soluciones de diseño. En ella, por ejemplo, se determina cómo será la estructura principal de la aplicación, definiendo cada una de las funciones y tareas que debe realizar la aplicación móvil para cumplir con los requerimientos solicitados e identificados con el cliente o los usuarios.
-      .col-lg-5: img(src="@/assets/curso/img38.jpg")(data-aos="slide-left")
+      .col-lg-5
+        img(src="@/assets/curso/img38.jpg")(data-aos="slide-left")
+        figcaption Nota. https://bit.ly/3qZQGyq
     #t_4_1.titulo-segundo
       h2 4.1 Fases del diseño de las aplicaciones
     p.mb-5 Existen cuatro fases establecidas para el diseño de aplicaciones móviles, definidas por la norma ISO 13407, que integran el proceso del DCU, diseño centrado en el usuario y que están, además, concebidas bajo seis principios que deben caracterizar una interfaz centrada en el usuario. Las dos primeras fases tienen especial intención de documentar las necesidades y requerimientos del usuario.
     figure.mb-5
       img(src='@/assets/curso/img39.jpg', alt='Texto que describa la imagen')(data-aos="zoom-in-up")
+      figcaption Nota. https://bit.ly/3hNyDXS
     .row.mb-3
       .col-md-6.col-xl.mb-4.mb-xl-0
         //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
@@ -55,13 +58,13 @@
     #t_4_2.titulo-segundo
       h2 4.2 Principios del diseño centrado en usuarios
     p.mb-5 Los seis principios que deben caracterizar una interfaz centrada en el usuario apuntan, sin lugar a dudas, a una satisfacción plena del usuario con las aplicaciones que tenga a su disposición.
-    h4 Diseño centrado en el usuario
     .titulo-sexto.color-acento-contenido
       h5.fw-normal 
         b Figura 6 
-        | Principios Que Caracterizan Al DCU
+        | <i>Principios Que Caracterizan Al DCU</i>
     ImagenInfografica.color-acento-botones.mb-5
       template(v-slot:imagen)
+        h4.text-center Diseño centrado en el usuario
         figure
           img(src='@/assets/curso/img40.svg', alt='Texto que describa la imagen')
           figcaption Nota. Presentación Introducción Al Desarrollo De Aplicaciones Móviles. (2020)
@@ -80,14 +83,14 @@
     p.mb-5 Esta responsabilidad con las personas que hacen uso de los teléfonos inteligentes y los servicios de las aplicaciones responde, además, a las demandas de la dinámica de consumo actual, a la creciente oferta de servicios que conectan a los individuos con el mundo, con las otras personas, con sus intereses y que, entre otras, dinamizan y facilitan su vida y actividades diarias.
     #t_4_3.titulo-segundo
       h2 4.3 Técnicas para el diseño centrado en usuarios
-    p.mb-5 Conocer y comprender las necesidades, limitaciones, comportamiento y características del usuario, sumado al modelo de las tres etapas; análisis, diseño y evaluación, desarrollado en cuatro fases específicas, ya mencionadas, abren la puerta para considerar las técnicas para un óptimo diseño de aplicaciones centradas en el usuario. s
-    h4 Proceso del DCU y las técnicas por fases
+    p.mb-5 Conocer y comprender las necesidades, limitaciones, comportamiento y características del usuario, sumado al modelo de las tres etapas; análisis, diseño y evaluación, desarrollado en cuatro fases específicas, ya mencionadas, abren la puerta para considerar las técnicas para un óptimo diseño de aplicaciones centradas en el usuario.
     .titulo-sexto.color-acento-contenido
       h5.fw-normal 
         b Figura 7 
         | Técnica por fases para el desarrollo de un diseño centrado en el usuario
     .row.mb-5.justify-content-center
       .col-lg-8
+        h4.text-center Proceso del DCU y las técnicas por fases
         img(src="@/assets/curso/img41.jpg")
       figcaption.mt-3 Nota. Presentación Introducción Al Desarrollo De Aplicaciones Móviles. (2020)
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
@@ -102,7 +105,7 @@
           figure
             img(src='@/assets/curso/img43.svg', alt='Texto que describa la imagen')
         .col-md-8.mb-4.mb-md-0
-          p Los usuarios son partícipes a través del diseño y desarrollo. Este principio permite que el equipo de trabajo involucre de manera directa a los usuarios en todas las fases, no solo en la ejecución de un focus group en el inicio del diseño o mediante la aplicación de una encuesta al final de la implementación sino durante todo el proceso de desarrollo. 
+          p Los usuarios son partícipes a través del diseño y desarrollo. Este principio permite que el equipo de trabajo involucre de manera directa a los usuarios en todas las fases, no solo en la ejecución de un <i>focus group</i> en el inicio del diseño o mediante la aplicación de una encuesta al final de la implementación sino durante todo el proceso de desarrollo. 
       .row(titulo="Evaluación centrada en el usuario")
         .col-md-4
           figure
@@ -130,6 +133,10 @@
     #t_4_4.titulo-segundo
       h2 4.4 Ventajas del DCU
     p.mb-5 El diseño por fases y la observancia de los principios del diseño centrado en el usuario, favorecen un alto nivel de cumplimiento de expectativas no sólo para quien hace uso de las aplicaciones y sus servicios sino también para las compañías u operadores que las ofrecen. Sin embargo, hay algunas ventajas que se presentan con anterioridad a la oferta y uso de la aplicación móvil.
+    .titulo-sexto.color-acento-contenido
+      h5.fw-normal 
+        b Tabla 6 
+        | <i>Ventajas del diseño centrado en el usuario</i>
     .row.mb-5
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta.color-1-claro.w-100.p-4.h-100.hover-transform
@@ -148,7 +155,7 @@
         .tarjeta.color-2-claro.w-100.p-4.h-100.hover-transform
           img(src='@/assets/curso/img50.svg' alt='AvatarTop' style='width: 94px').mb-4
           h3 Diseño de prototipos
-          p En esta fase se elaboran los prototipos de baja y alta resolución. son actividades propias de los diseñadores, estos diseños permiten visualizar la solución de la interfaz. En este punto son relevantes los conocimientos sobre comunicación, semiótica y retórica.
+          p En esta fase se elaboran los prototipos de baja y alta resolución. Son actividades propias de los diseñadores, estos diseños permiten visualizar la solución de la interfaz. En este punto son relevantes los conocimientos sobre comunicación, semiótica y retórica.
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta.color-4-claro.w-100.p-4.h-100.hover-transform
           img(src='@/assets/curso/img51.svg' alt='AvatarTop' style='width: 94px').mb-4

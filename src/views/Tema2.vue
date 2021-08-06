@@ -10,7 +10,7 @@
     .titulo-sexto.color-acento-contenido
       h5.fw-normal 
         b Tabla 2 
-        | Códigos más Comunes para el Diseño de Interfaces Gráficas
+        | <i>Códigos más Comunes para el Diseño de Interfaces Gráficas</i>
     .tarjeta1.color-3-claro.bfaf.p-3(data-aos="flip-up")
       SlyderA.px-5
         .row.m-5.align-items-center
@@ -59,11 +59,15 @@
     p.mb-5 En este mismo sentido y habiendo conocido los elementos gráficos más utilizados, es importante comprender cómo deben ser distribuidos en el espacio de trabajo, con el fin de realizar una correcta organización de los elementos necesarios para una buena visualización y navegabilidad.
     .titulo-sexto.color-acento-contenido
       h5.fw-normal 
-        b Figura 1
-        | Contraste De Color
+        b Figura 1 
+        | <i>Contraste De Color</i>
     .row.mb-5.justify-content-center(data-aos="zoom-in-up")
-      .col-lg-7: img(src="@/assets/curso/img18.jpg")
+      .col-lg-7
+        img(src="@/assets/curso/img18.png")
+        figcaption Nota. Presentación Introducción Al Desarrollo De Aplicaciones Móviles (2020)
+
     p.mb-5 La “ley de la buena forma”, demuestra que las personas usuarias buscan establecer su apreciación de la manera más clara y simple posible, minimizando todo a formas constantes y sencillas. Por esta razón los usuarios interpretan mejor lo que está sucediendo y el mensaje que se está ofreciendo en la interfaz si la información está organizada en formas sencillas.
+    p De acuerdo con Sosa y Siegel (2015):
     .row.mb-5.justify-content-center
       .col-lg-7
         .bloque-texto-b.p-4
@@ -77,10 +81,10 @@
     p.mb-5 Es importante definir los colores y los tamaños del texto, al momento de realizar una lectura; el contraste debe permitir realizar esta actividad con facilidad. También se deben considerar temas como interlineados, espacios, entre otras, para realizar una lectura cómoda y fácil.
     .titulo-sexto.color-acento-contenido
       h5.fw-normal 
-        b Figura 2
-        | Contraste 
+        b Figura 2 
+        | <i>Contraste</i> 
     .row.mb-5.justify-content-center(data-aos="zoom-in-up")
-      .col-lg-5: img(src="@/assets/curso/img19.jpg")
+      .col-lg-5: img(src="@/assets/curso/img19.png")
       figcaption Nota. Adaptado de Cuello y Vittone (2013)
     .row.mb-5
       .col-lg-4.col-md-5.col-sm-6.col-xs-auto: img(src="@/assets/curso/img20.svg").mb-4(data-aos="slide-right")
@@ -100,7 +104,7 @@
         h4 Tipografías limpias
         p Cuello y Vittone (2013): 
           br
-          |Recomiendan el uso de tipografías limpias abiertas como por ejemplo la fuente llamada sans-serif, porque es mucho más fácil visualizarlas dentro de las pequeñas pantallas que proporcionan los Smartphones para la realización de lecturas largas.
+          |Recomiendan el uso de tipografías limpias abiertas como por ejemplo la fuente llamada <i>sans-serif</i>, porque es mucho más fácil visualizarlas dentro de las pequeñas pantallas que proporcionan los Smartphones para la realización de lecturas largas.
         a.boton.color-acento-botones.mb-5.indicador__container(@click="modal1 = true")
           span Tipo y Tamaño de Fuente
           .indicador--click(v-if="mostrarIndicador")
@@ -112,7 +116,7 @@
       .col-lg-4.col-md-5.col-sm-6.col-xs-auto: img(src="@/assets/curso/img23.svg").mb-4(data-aos="slide-right")
       .col-lg-8.col-md-7.col-sm-6.col-xs-auto(data-aos="slide-left")
         h4 Tamaño de tipografía en cada S.O
-        p El tamaño de la tipografía se mide en scaled Pixels o píxeles escalados; el tamaño utilizado en aplicaciones móviles va desde 12sp hasta 22sp. Es así como los títulos principales podrían medir hasta 34px. De esta manera, el tamaño en las etiquetas, dentro de botones importantes, es de 28px, aproximadamente. Partiendo de allí, va en disminución jerárquicamente hasta alcanzar el tamaño más pequeño que es muy cercano a los 14px. No obstante, la recomendación es no usar dimensiones que sean inferiores a los 20px en los textos que sean de lectura. 
+        p El tamaño de la tipografía se mide en <i>scaled Pixels</i> o píxeles escalados; el tamaño utilizado en aplicaciones móviles va desde 12sp hasta 22sp. Es así como los títulos principales podrían medir hasta 34px. De esta manera, el tamaño en las etiquetas, dentro de botones importantes, es de 28px, aproximadamente. Partiendo de allí, va en disminución jerárquicamente hasta alcanzar el tamaño más pequeño que es muy cercano a los 14px. No obstante, la recomendación es no usar dimensiones que sean inferiores a los 20px en los textos que sean de lectura. 
     #t_2_2.titulo-segundo
       h2 2.2 Retícula
     .row.mb-5.justify-content-between
@@ -127,15 +131,15 @@
         .titulo-sexto.color-acento-contenido
           h5.fw-normal 
             b Figura 4 
-            | Retícula Organización De Contenidos
-        img.d-block(src="@/assets/curso/img24.jpg" style="width: 255px").m-auto
+            | <i>Retícula Organización De Contenidos</i>
+        img.d-block(src="@/assets/curso/img24.png" style="width: 255px").m-auto
         figcaption Nota. Presentación Introducción Al Desarrollo De Aplicaciones Móviles. (2020)
       .col-lg-3
         .titulo-sexto.color-acento-contenido
           h5.fw-normal 
-            b Figura 5  
-            | Márgenes y Tamaños de Elementos Gráficos
-        img.d-block(src="@/assets/curso/img25.jpg").m-auto
+            b Figura 5   
+            | <i>Márgenes y Tamaños de Elementos Gráficos</i>
+        img.d-block(src="@/assets/curso/img25.png").m-auto
         figcaption Nota. Presentación Introducción Al Desarrollo De Aplicaciones Móviles. (2020) 
     #t_2_3.titulo-segundo
       h2 2.3 Color
@@ -173,11 +177,13 @@
               p Se utiliza especialmente para mostrar mensajes de éxito y revalidación, indicando que una acción o actividad se ha realizado correctamente.
     #t_2_4.titulo-segundo
       h2 2.4 Ícono
-    p.mb-5 Los íconos son los elementos más utilizados en el ámbito del desarrollo de aplicaciones móviles ya que, por su tamaño y composición, permiten una fácil ubicación e interacción. Estos deben ser diseñados cuidadosamente para que las visualizaciones transmitan el mensaje correcto y el usuario entienda, de manera intuitiva, su intencionalidad. Pierce categorizó a los signos en tres grupos: los íconos, los índices y los símbolos.
+    p.mb-5 Los íconos son los elementos más utilizados en el ámbito del desarrollo de aplicaciones móviles ya que, por su tamaño y composición, permiten una fácil ubicación e interacción. Estos deben ser diseñados cuidadosamente para que las visualizaciones transmitan el mensaje correcto y el usuario entienda, de manera intuitiva, su intencionalidad. 
+      b <i>Pierce </i>  
+      |categorizó a los signos en tres grupos: los íconos, los índices y los símbolos.
     .titulo-sexto.color-acento-contenido
       h5.fw-normal 
         b Tabla 3 
-        | Los íconos, los índices y los símbolos
+        | <i>Los íconos, los índices y los símbolos</i>
     figure.mb-5(data-aos="flip-up")
       img(src='@/assets/curso/img29.svg' alt='Infografia').mb-3
       figcaption Nota. https://bit.ly/3wr4sLA

@@ -246,12 +246,12 @@ export default {
     {
       termino: 'Benchmarking',
       significado:
-        'Se trata del proceso de creación, recopilación, comparación y de análisis de indicadores, que posibilite hacer medición del avance de los procesos y de las funciones de mayor importancia, dentro de una organización. Tales indicadores son conocidos como “benchmarks” y suelen servir como un estándar de éxito de las compañías.',
+        'Se trata del proceso de creación, recopilación, comparación y de análisis de indicadores, que posibilite hacer medición del avance de los procesos y de las funciones de mayor importancia, dentro de una organización. Tales indicadores son conocidos como <i>“benchmarks”</i> y suelen servir como un estándar de éxito de las compañías.',
     },
     {
       termino: 'Estándar ISO 13407',
       significado:
-        'Human-centred design processes for interactive systems [ISO99] constituye un marco que sirve de guía para conseguir el desarrollo de sistemas interactivos usables incorporando el DCU durante el ciclo de vida del desarrollo',
+        '<i>Human-centred design processes for interactive systems</i> [ISO99] constituye un marco que sirve de guía para conseguir el desarrollo de sistemas interactivos usables incorporando el DCU durante el ciclo de vida del desarrollo',
     },
     {
       termino: 'Hipermedia',
@@ -261,7 +261,7 @@ export default {
     {
       termino: 'Ley de Fitts',
       significado:
-        'Hace referencia a la rapidez y precisión con que ocurre el movimiento de los músculos en los humanos, cuando se está apuntando a un objetivo físico. Esta ley de fitts es utilizada para, por ejemplo, modelar el acto de apuntar con la mano o los dedos y, en el contexto de los ordenadores, para apuntar o dirigir mientras se hace uso de un mouse.',
+        'Hace referencia a la rapidez y precisión con que ocurre el movimiento de los músculos en los humanos, cuando se está apuntando a un objetivo físico. Esta ley de <i>fitts</i> es utilizada para, por ejemplo, modelar el acto de apuntar con la mano o los dedos y, en el contexto de los ordenadores, para apuntar o dirigir mientras se hace uso de un <i>mouse</i>.',
     },
     {
       termino: 'Navegabilidad',
@@ -271,12 +271,12 @@ export default {
     {
       termino: 'Pixel',
       significado:
-        'Es la abreviatura de Picture Element y puede definirse como la unidad más pequeña de color que componen una imagen digital, ya sea una fotografía, vídeo o un fotograma.',
+        'Es la abreviatura de <i>Picture Element</i> y puede definirse como la unidad más pequeña de color que componen una imagen digital, ya sea una fotografía, vídeo o un fotograma.',
     },
     {
       termino: 'Skeumorfismo',
       significado:
-        'Su definición estricta es objeto evolucionado/derivado que mantiene detalles del diseño del objeto original con el objetivo de hacerlo más familiar. Viene de las palabras en griego skeuos (herramienta o contenedor) y morphe (shape)',
+        'Su definición estricta es objeto evolucionado/derivado que mantiene detalles del diseño del objeto original con el objetivo de hacerlo más familiar. Viene de las palabras en griego <i>skeuos</i> (herramienta o contenedor) y <i>morphe (shape)</i>',
     },
   ],
   complementario: [
@@ -396,7 +396,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Maria Camila Ovalle Ospina   ',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

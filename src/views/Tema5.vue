@@ -8,11 +8,13 @@
       h1 Análisis jerárquico de tareas
     .row.mb-5.justify-content-between 
       .col-lg-7
-        p El análisis jerárquico de tareas HTA, por sus siglas en inglés: Hierarchical Task Analysis, permite establecer y describir las acciones por realizar, paso a paso, de manera secuencial, identificando y describiendo cada una de las tareas y actividades, enfocando en las operaciones y procedimientos. 
+        p El análisis jerárquico de tareas <i>HTA</i>, por sus siglas en inglés: <i>Hierarchical Task Analysis</i>, permite establecer y describir las acciones por realizar, paso a paso, de manera secuencial, identificando y describiendo cada una de las tareas y actividades, enfocando en las operaciones y procedimientos. 
           br
           br
-          |Se prevé que, con el cumplimiento de una serie de tareas concretas, las personas, programas u organizaciones alcanzarán el logro de determinado objetivo o meta. Así mismo, el análisis jerárquico de tareas contempla la creación de un entorno suficiente y válido para poder ejecutar las acciones planeadas. El diseño de aplicaciones móviles, el desarrollo de la interfaz y todos los demás elementos que integran el proceso de programación de las mismas no escapa a este HTA.
-      .col-lg-4: img(src="@/assets/curso/img52.svg")
+          |Se prevé que, con el cumplimiento de una serie de tareas concretas, las personas, programas u organizaciones alcanzarán el logro de determinado objetivo o meta. Así mismo, el análisis jerárquico de tareas contempla la creación de un entorno suficiente y válido para poder ejecutar las acciones planeadas. El diseño de aplicaciones móviles, el desarrollo de la interfaz y todos los demás elementos que integran el proceso de programación de las mismas no escapa a este <i>HTA</i>.
+      .col-lg-4
+        img(src="@/assets/curso/img52.svg")
+        figcaption Nota. https://bit.ly/3qWtctJ
     #t_5_1.titulo-segundo
       h2 5.1 Secuencia
     p.mb-5 Una secuencia es un conjunto de elementos que se ordenan en una determinada sucesión, unos detrás de otros o unos delante de otros. Estas secuencias, por lo general, se presentan como un conjunto de información ordenada. En ese sentido, se habla de tres variables de una secuencia: Selección, Interacción y Tarea unitaria. La primera de ellas, la Selección se refiere a cuando dentro de un conjunto de tareas se tiene que elegir una de ellas; por su parte, la Iteración tiene que ver con la repetición de un subconjunto de tareas y, finalmente la Tarea unitaria se trata de una actividad única que no tiene actividades subordinadas.
@@ -27,7 +29,8 @@
         .tarjeta-numerada.color-primario.px-5.py-3.w-100.h-100.align-items-center.d-flex
           .tarjeta-numerada__numero
             .h2 1
-          p.mb-0 Necesidad de información concreta.
+          p.mb-0 
+            b Necesidad de información concreta.
             br
             b Por ejemplo: 
             span.sp-1.fw-bold “¿Qué costo tiene este producto?”
@@ -38,7 +41,8 @@
         .tarjeta-numerada.color-primario.px-5.py-3.w-100.h-100.align-items-center.d-flex
           .tarjeta-numerada__numero
             .h2 2
-          p.mb-0 Necesidad de información orientada a problemas.
+          p.mb-0 
+            b Necesidad de información orientada a problemas.
             br
             b Por ejemplo: 
             span.sp-1.fw-bold “¿Cuál es la relación entre la usabilidad y la arquitectura de información?” 
@@ -50,7 +54,8 @@
         .tarjeta-numerada.color-primario.px-5.py-3.w-100.h-100.align-items-center.d-flex
           .tarjeta-numerada__numero
             .h2 3
-          p.mb-0 Necesidad de información exploratoria.
+          p.mb-0 
+            b Necesidad de información exploratoria.
             br
             b Por ejemplo: 
             span.sp-1.fw-bold “Quiero escoger un buen hotel para este fin de semana”
@@ -61,11 +66,13 @@
         .tarjeta-numerada.color-primario.px-5.py-3.w-100.h-100.align-items-center.d-flex
           .tarjeta-numerada__numero
             .h2 4
-          p.mb-0 Necesidad de información sobre búsquedas previas, es decir, localizar información que ya había localizado previamente.
+          p.mb-0 
+            b Necesidad de información sobre búsquedas previas
+            |, es decir, localizar información que ya había localizado previamente.
     .row
       .col-auto
         a.boton.color-acento-botones.mb-5.indicador__container(@click="modal1 = true")
-          span Análisis de Tareas
+          span Análisis Jerárquiqo de Tareas
           .indicador--click(v-if="mostrarIndicador")
     ModalA(:abrir-modal.sync="modal1")
       .row.justify-content-center
@@ -107,7 +114,7 @@
             img(src='@/assets/curso/img57.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.d-flex.align-items-center
             .p-4
-              h3 Aplicar la técnica de card sorting
+              h3 Aplicar la técnica de <i>card sorting</i>
               p Los resultados de esta técnica suelen ser representados en dendrogramas. Es una representación gráfica o diagrama de datos, en forma de árbol, que organiza los datos en subcategorías que se van dividiendo en otras hasta llegar al nivel de detalle deseado.
     #t_5_3.titulo-segundo
       h2 5.3 La hipermedia
