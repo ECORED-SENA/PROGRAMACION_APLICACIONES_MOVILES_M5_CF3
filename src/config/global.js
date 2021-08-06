@@ -251,7 +251,7 @@ export default {
     {
       termino: 'Estándar ISO 13407',
       significado:
-        '<i>Human-centred design processes for interactive systems</i> [ISO99] constituye un marco que sirve de guía para conseguir el desarrollo de sistemas interactivos usables incorporando el DCU durante el ciclo de vida del desarrollo',
+        '<i>Human-centred design processes for interactive systems</i> [ISO99] constituye un marco que sirve de guía para conseguir el desarrollo de sistemas interactivos usables incorporando el DCU durante el ciclo de vida del desarrollo.',
     },
     {
       termino: 'Hipermedia',
@@ -276,7 +276,7 @@ export default {
     {
       termino: 'Skeumorfismo',
       significado:
-        'Su definición estricta es objeto evolucionado/derivado que mantiene detalles del diseño del objeto original con el objetivo de hacerlo más familiar. Viene de las palabras en griego <i>skeuos</i> (herramienta o contenedor) y <i>morphe (shape)</i>',
+        'Su definición estricta es objeto evolucionado/derivado que mantiene detalles del diseño del objeto original con el objetivo de hacerlo más familiar. Viene de las palabras en griego <i>skeuos</i> (herramienta o contenedor) y <i>morphe (shape)</i>.',
     },
   ],
   complementario: [
@@ -327,7 +327,7 @@ export default {
       {
         nombre: 'Alix Cecilia Chinchilla Rueda',
         cargo: 'Evaluadora Instruccional',
-        centro: 'Centro de Gestión Industrial - Regional Distrito Capita',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
       },
       {
         nombre: 'Sandra Patricia Hoyos Sepúlveda',
