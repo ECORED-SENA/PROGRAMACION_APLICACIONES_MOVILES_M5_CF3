@@ -14,7 +14,7 @@
     .titulo-sexto.color-acento-contenido
       h5.fw-normal 
         b Tabla 1 
-        | Tipos de interfaz de usuario
+        | <i>Tipos de interfaz de usuario</i>
     .row.mb-5(data-aos="fade-up")
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar.hover-transform

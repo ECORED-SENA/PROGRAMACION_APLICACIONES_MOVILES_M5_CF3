@@ -162,7 +162,7 @@
           h3 Inspección y test
             br
             |con usuarios
-          p Se utilizan las pruebas de usabilidad y test de navegación aplicados a los usuarios que permiten obtener información sobre los diseños para mejorarlos y validarlos  
+          p Se utilizan las pruebas de usabilidad y test de navegación aplicados a los usuarios que permiten obtener información sobre los diseños para mejorarlos y validarlos.
 
 </template>
 
