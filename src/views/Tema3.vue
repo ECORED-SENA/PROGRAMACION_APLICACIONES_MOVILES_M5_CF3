@@ -50,8 +50,8 @@
     p.mb-5 Para conocer con más detalle, los principios que regulan la usabilidad y funcionalidad de una interface para páginas web y dispositivos móviles, según Williams, Sochats y Morse, le invitamos a ver el siguiente recurso:
     figure.mb-5
     .video
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    figcaption Video: Leyenda del video
+      iframe(width="560" height="315" src="https://www.youtube.com/embed/jV5krdruvd0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    figcaption Video: Usabilidad y Funcionalidad
 </template>
 
 <script>

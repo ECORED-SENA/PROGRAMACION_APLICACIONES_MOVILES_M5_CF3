@@ -163,6 +163,8 @@
             br
             |con usuarios
           p Se utilizan las pruebas de usabilidad y test de navegación aplicados a los usuarios que permiten obtener información sobre los diseños para mejorarlos y validarlos.
+    h3 B. <i>Words connected with tourism</i> // Términos relacionados con el turismo
+    p.mb-5 A continuación, se podrán revisar diversos términos que se utilizan con frecuencia en el área del turismo:
 
 </template>
 
