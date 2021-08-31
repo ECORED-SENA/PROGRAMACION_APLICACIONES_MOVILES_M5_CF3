@@ -72,7 +72,7 @@
     .row
       .col-auto
         a.boton.color-acento-botones.mb-5.indicador__container(@click="modal1 = true")
-          span Análisis Jerárquiqo de Tareas
+          span Análisis Jerárquico de Tareas
           .indicador--click(v-if="mostrarIndicador")
     ModalA(:abrir-modal.sync="modal1")
       .row.justify-content-center

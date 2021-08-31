@@ -132,7 +132,7 @@
           p El equipo de diseño incluye habilidades y perspectivas multidisciplinares. Los conocimientos del diseñador y del programador no son los únicos necesarios para el correcto funcionamiento de la aplicación; se debe incluir la opinión de expertos en accesibilidad, el equipo de marketing, escritores técnicos, y especialmente la de los usuarios finales.
     #t_4_4.titulo-segundo
       h2 4.4 Ventajas del DCU
-    p.mb-5 El diseño por fases y la observancia de los principios del diseño centrado en el usuario, favorecen un alto nivel de cumplimiento de expectativas no sólo para quien hace uso de las aplicaciones y sus servicios sino también para las compañías u operadores que las ofrecen. Sin embargo, hay algunas ventajas que se presentan con anterioridad a la oferta y uso de la aplicación móvil.
+    p.mb-5 El diseño por fases y la observancia de los principios del diseño centrado en el usuario, favorecen un alto nivel de cumplimiento de expectativas no solo para quien hace uso de las aplicaciones y sus servicios sino también para las compañías u operadores que las ofrecen. Sin embargo, hay algunas ventajas que se presentan con anterioridad a la oferta y uso de la aplicación móvil.
     .titulo-sexto.color-acento-contenido
       h5.fw-normal 
         b Tabla 6 
@@ -163,9 +163,6 @@
             br
             |con usuarios
           p Se utilizan las pruebas de usabilidad y test de navegación aplicados a los usuarios que permiten obtener información sobre los diseños para mejorarlos y validarlos.
-    h3 B. <i>Words connected with tourism</i> // Términos relacionados con el turismo
-    p.mb-5 A continuación, se podrán revisar diversos términos que se utilizan con frecuencia en el área del turismo:
-
 </template>
 
 <script>

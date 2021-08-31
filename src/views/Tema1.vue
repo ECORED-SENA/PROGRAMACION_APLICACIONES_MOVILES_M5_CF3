@@ -102,13 +102,13 @@
       h2 1.2 Historia de las interfaces
     .row.justify-content-between.mb-5
       .col-lg-6
-        p El inicio de las interfaces gráficas se da en el mismo momento que los computadores personales se ofrecieron de manera comercial, en la década de los años 70; antes de esto sólo se utilizaba interfaz de texto que hacía el proceso de comunicación más tedioso, por su complejidad. Gracias al trabajo de <i>IBM, Microsoft y Apple</i>, en poco tiempo se lograron concebir unas herramientas gráficas que facilitaron la interacción con sus sistemas operativos y el <i>software</i> que se utilizaba en ese momento, utilizando la metáfora del escritorio de oficina como símil del entorno gráfico.
+        p El inicio de las interfaces gráficas se da en el mismo momento que los computadores personales se ofrecieron de manera comercial, en la década de los años 70; antes de esto solo se utilizaba interfaz de texto que hacía el proceso de comunicación más tedioso, por su complejidad. Gracias al trabajo de <i>IBM, Microsoft y Apple</i>, en poco tiempo se lograron concebir unas herramientas gráficas que facilitaron la interacción con sus sistemas operativos y el <i>software</i> que se utilizaba en ese momento, utilizando la metáfora del escritorio de oficina como símil del entorno gráfico.
           br
           br
           |Los primeros productos de <i>Apple</i> y <i>Microsoft</i> e <i>IBM</i> contribuyeron en gran medida con las bases de diseño e interacción que aún son utilizadas, proponiendo al usuario un lenguaje claro y un entorno interactivo, basado en señales, íconos, hipervínculos y también en otras dinámicas que son propias y que representan las acciones del sistema informático. 
           br
           br
-          |Se lograron, entonces, entornos de trabajo mucho más familiares y comprensibles para la gran mayoría de usuarios, pasando de tener una pantalla en negro y con una línea de texto de comando, a un entorno totalmente grafico e interactivo agradable que invita a la interacción.
+          |Se lograron, entonces, entornos de trabajo mucho más familiares y comprensibles para la gran mayoría de usuarios, pasando de tener una pantalla en negro y con una línea de texto de comando, a un entorno totalmente gráfico e interactivo agradable que invita a la interacción.
       .col-lg-5: img(src="@/assets/curso/img10.jpg")(data-aos="flip-left")
     p.mb-5 Para tener mayor información sobre la historia y evolución de las interfaces de usuario, se le recomienda visitar el enlace siguiente: 
     .row.justify-content-center

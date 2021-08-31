@@ -45,7 +45,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Diseño de interfaz para aplicaciones móviles',
+        titulo: 'Diseño de interfaces para aplicaciones móviles',
         desarrolloContenidos: true,
         subMenu: [
           {
